@@ -37,12 +37,12 @@ Antes : 20 18 3 53 9 4 73 84 2 39
 Depois: 2 3 4 9 18 20 39 53 73 84
 Salvo em ordenado.txt
 
-## Algoritmos implementados
-
-| Algoritmo | Ideia | Melhor caso | Pior caso | Estável |
-|---|---|---|---|---|
-| Bubble Sort | Troca vizinhos fora de ordem; o maior "sobe" a cada volta | O(n)* | O(n²) | Sim |
-| Insertion Sort | Encaixa cada valor na parte já ordenada | O(n) | O(n²) | Sim |
-| Selection Sort | Procura o menor valor e o leva para o início | O(n²) | O(n²) | Não |
-| Merge Sort | Divide ao meio, ordena cada metade e junta | O(n log n) | O(n log n) | Sim |
-| Quick Sort | Escolhe um pivô e separa menores e maiores | O(n log n) | O(n²) | Não |
+## Algoritmos
+ 
+| Algoritmo | Como funciona | Listas grandes |
+|---|---|---|
+| Bubble | Troca vizinhos fora de ordem | Lento |
+| Insertion | Encaixa cada valor na parte já ordenada | Lento |
+| Selection | Leva o menor valor para o início | Lento |
+| Merge | Divide ao meio, ordena e junta | Rápido |
+| Quick | Separa menores e maiores em torno de um pivô | Rápido |
