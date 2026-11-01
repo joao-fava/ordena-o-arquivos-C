@@ -1,0 +1,50 @@
+# Algoritmos de Ordenação com Manipulação de Arquivos em C
+
+Programa em C que une dois conceitos básicos da programação: *algoritmos de ordenação* e *manipulação de arquivos*.
+
+O programa cria um arquivo com números desordenados, lê esses dados, ordena com o algoritmo escolhido pelo usuário, salva o resultado em um novo arquivo e permite alterar um valor no arquivo original para ordenar novamente.
+
+## Funcionalidades
+
+1. Cria e grava dados.txt com valores desordenados (aleatórios)
+2. Lê os valores do arquivo
+3. Permite escolher o algoritmo: *Bubble, **Insertion, **Selection, **Merge* ou *Quick Sort*
+4. Ordena e salva o resultado em ordenado.txt
+5. Altera um valor dentro de dados.txt e reordena
+
+## Como usar
+
+O programa mostra um menu e espera um número seguido de *Enter*. Na primeira vez, siga esta ordem:
+
+| Passo | Digite | O que acontece |
+|---|---|---|
+| 1 | 1 | Cria o dados.txt com números aleatórios |
+| 2 | 2 | Mostra o conteúdo do arquivo |
+| 3 | 3, depois 1 a 5 | Ordena com o algoritmo escolhido e salva em ordenado.txt |
+| 4 | 4, posição e novo valor | Altera um valor do dados.txt e reordena |
+| 5 | 0 | Sai do programa |
+
+
+### Exemplo 
+
+
+1-Criar arquivo  2-Mostrar  3-Ordenar  4-Alterar valor  0-Sair: 1
+dados.txt criado com 10 numeros.
+
+1-Criar arquivo  2-Mostrar  3-Ordenar  4-Alterar valor  0-Sair: 3
+1-Bubble 2-Insertion 3-Selection 4-Merge 5-Quick: 5
+Antes : 20 18 3 53 9 4 73 84 2 39
+Depois: 2 3 4 9 18 20 39 53 73 84
+Salvo em ordenado.txt
+
+
+
+## Algoritmos implementados
+
+| Algoritmo | Ideia | Melhor caso | Pior caso | Estável |
+|---|---|---|---|---|
+| Bubble Sort | Troca vizinhos fora de ordem; o maior "sobe" a cada volta | O(n)* | O(n²) | Sim |
+| Insertion Sort | Encaixa cada valor na parte já ordenada | O(n) | O(n²) | Sim |
+| Selection Sort | Procura o menor valor e o leva para o início | O(n²) | O(n²) | Não |
+| Merge Sort | Divide ao meio, ordena cada metade e junta | O(n log n) | O(n log n) | Sim |
+| Quick Sort | Escolhe um pivô e separa menores e maiores | O(n log n) | O(n²) | Não |
