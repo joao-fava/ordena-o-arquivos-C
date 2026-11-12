@@ -8,7 +8,7 @@ O programa cria um arquivo com números desordenados, lê esses dados, ordena co
 
 1. Cria e grava dados.txt com valores desordenados (aleatórios)
 2. Lê os valores do arquivo
-3. Permite escolher o algoritmo: *Bubble, **Insertion, **Selection, **Merge* ou *Quick Sort*
+3. Permite escolher o algoritmo: Bubble, Insertion, Selection, Merge ou Quick Sort
 4. Ordena e salva o resultado em ordenado.txt
 5. Altera um valor dentro de dados.txt e reordena
 
